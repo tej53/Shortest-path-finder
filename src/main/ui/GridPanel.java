@@ -22,12 +22,7 @@ public class GridPanel extends JPanel {
 
     private boolean isAnimating = false;
 
-    // 0 = empty
-    // 1 = start
-    // 2 = end
-    // 3 = wall
-    // 4 = visited (blue)
-    // 5 = path (yellow)
+    
     private int[][] grid = new int[rows][cols];
 
     private boolean startPlaced = false;
